@@ -1,0 +1,7 @@
+<% provide :title, t(".title") %>
+<h1><%= t(".title") %></h1>
+<p>
+  <%= t(".content.main",
+         rails_help: link_to(t(".content.rails_help"), Settings.links.rails.help).html_safe,
+         rails_book: link_to((t(".content.rails_book", rails_book_em: "<em>#{t('.content.rails_book_em')}</em>")).html_safe, Settings.links.rails.book)).html_safe %>
+</p>

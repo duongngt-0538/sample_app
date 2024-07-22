@@ -1,0 +1,25 @@
+vi:
+  layouts:
+    application:
+      base_title: "Ruby on Rails Tutorial Sample App"
+    header:
+      logo: "Sample app"
+      nav:
+        home: "Trang chủ"
+        help: "Trợ giúp"
+        log_in: "Đăng nhập"
+  static_pages:
+    help:
+      title: "Trợ giúp"
+      content:
+        main: "Nhận trợ giúp về Ruby on Rails Tutorial tại %{rails_help}. Để nhận trợ giúp về sample app này, hãy xem %{rails_book}."
+        rails_help: "trang trợ giúp Rails Tutorial"
+        rails_book: "sách %{rails_book_em}"
+        rails_book_em: "Ruby on Rails Tutorial"
+    home:
+      title: "Trang chủ"
+      content:
+        welcome: "Chào mừng đến với Sample App"
+        main: "Đây là trang chính cho sample app %{rails_url}."
+        rails: "Ruby On Rails Tutorial"
+        sign_up: "Đăng ký ngay!"
