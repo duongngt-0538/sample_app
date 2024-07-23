@@ -1,0 +1,8 @@
+<% provide :title, t(".title") %>
+<div class = "center jump jumbotron">
+  <h1><%= t(".content.welcome") %></h1>
+  <h2>
+    <%= t(".content.main", rails_url: link_to(t(".content.rails"), Settings.links.rails.url)).html_safe %>
+  </h2>
+  <%= link_to t(".content.sign_up"), "#", class: "btn btn-lg btn-primary" %>
+</div>
