@@ -1,4 +1,19 @@
 vi:
+  activerecord:
+    models:
+      user: "Người dùng"
+    attributes:
+      user:
+        name: "Tên"
+        email: "Email"
+        password: "Mật Khẩu"
+    errors:
+      messages:
+        blank: "không được để trống"
+        invalid: "không hợp lệ"
+      error: "lỗi"
+      the_form_contains: "Form có"
+
   layouts:
     application:
       base_title: "Ruby on Rails Tutorial Sample App"
@@ -23,3 +38,12 @@ vi:
         main: "Đây là trang chính cho sample app %{rails_url}."
         rails: "Ruby On Rails Tutorial"
         sign_up: "Đăng ký ngay!"
+  users:
+    message:
+      new: "Người dùng được tạo thành công"
+      not_found: "Không tìm thấy người dùng!"
+    new:
+      title: "Đăng ký"
+      form:
+        confirmation: "Xác nhận"
+        submit_button: "Tạo tài khoản mới"

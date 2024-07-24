@@ -1,5 +1,7 @@
 class User < ApplicationRecord
+  USER_PARAMS = [:name, :email, :password, :password_confirmation].freeze
   VALID_EMAIL_REGEX = Regexp.new(Settings.user.email.regex_valid)
+
   before_save :downcase_email
 
   validates :name, presence: true,

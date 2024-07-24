@@ -1,7 +1,4 @@
 links:
-  home: "home"
-  help: "help"
-  login: "#"
   rails:
     url: "https://www.railstutorial.org"
     book: "https://www.railstutorial.org/book"
