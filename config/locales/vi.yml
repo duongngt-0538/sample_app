@@ -11,18 +11,36 @@ vi:
       messages:
         blank: "không được để trống"
         invalid: "không hợp lệ"
-      error: "lỗi"
-      the_form_contains: "Form có"
-
   layouts:
     application:
       base_title: "Ruby on Rails Tutorial Sample App"
     header:
       logo: "Sample app"
       nav:
-        home: "Trang chủ"
+        account: "Tài khoản"
         help: "Trợ giúp"
+        home: "Trang chủ"
         log_in: "Đăng nhập"
+        log_out: "Đăng xuất"
+        profile: "Hồ sơ"
+        settings: "Cài đặt"
+        users: "Người dùng"
+  sessions:
+    new:
+      title: "Đăng nhập"
+      form:
+        password: "Mật khẩu"
+        submit_button: "Đăng nhập"
+      new_user?: "Người dùng mới?"
+      sign_up: "Đăng ký ngay!"
+      title: "Đăng nhập"
+    create:
+      message:
+        invalid_email_password_combination: "Email hoặc mật khẩu không hợp lệ"
+  shared:
+    error_messages:
+      error: "lỗi"
+      the_form_contains: "Form có"
   static_pages:
     help:
       title: "Trợ giúp"

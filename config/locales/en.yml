@@ -1,16 +1,30 @@
 en:
-  activerecord:
-    errors:
-      error: "error"
   layouts:
     application:
       base_title: "Ruby on Rails Tutorial Sample App"
     header:
       logo: "Sample app"
       nav:
-        home: "Home"
+        account: "Account"
         help: "Help"
+        home: "Home"
         log_in: "Log in"
+        log_out: "Log out"
+        profile: "Profile"
+        settings: "Settings"
+        users: "Users"
+  sessions:
+    new:
+      title: "Log in"
+      form:
+        submit_button: "Log in"
+    create:
+      message:
+        invalid_email_password_combination: "Invalid email password combination"
+  shared:
+    error_messages:
+      error: "error"
+      the_form_contains: "The form contains"
   static_pages:
     help:
       title: "Help"
