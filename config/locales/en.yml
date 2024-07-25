@@ -17,7 +17,11 @@ en:
     new:
       title: "Log in"
       form:
+        password: "Password"
         submit_button: "Log in"
+      new_user?: "New user?"
+      remember_me: "Remember me"
+      sign_up: "Sign up now!"
     create:
       message:
         invalid_email_password_combination: "Invalid email password combination"
