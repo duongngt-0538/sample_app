@@ -25,6 +25,7 @@ en:
     create:
       message:
         invalid_email_password_combination: "Invalid email password combination"
+        no_user: "No account found with the provided email address"
   shared:
     error_messages:
       error: "error"
@@ -46,10 +47,26 @@ en:
         sign_up: "Sign up now!"
   users:
     message:
-      new: "User created successfully"
+      auth:
+        edit: "You cannot edit this user."
+        delete: "You cannot delete this user."
+      delete_fail: "Delete fail!"
+      deleted: "User deleted"
+      log_in: "Please log in."
+      new: "User created successfully."
       not_found: "User not found!"
+      updated: "Profile updated"
+    edit:
+      title: "Edit user"
+      change: "Change"
+      header: "Update your profile"
+      submit_button: "Save changes"
     new:
       title: "Sign up"
-      form:
-        confirmation: "Confirmation"
-        submit_button: "Create my account"
+      submit_button: "Create my account"
+    form:
+      confirmation: "Confirmation"
+    index:
+      title: "All users"
+    user:
+      you_sure?: "You sure?"

@@ -7,10 +7,13 @@ vi:
         name: "Tên"
         email: "Email"
         password: "Mật Khẩu"
+        password_confirmation: "Xác nhận mật khẩu"
     errors:
       messages:
         blank: "không được để trống"
         invalid: "không hợp lệ"
+        too_short: "quá ngắn (tối thiểu %{count} ký tự)."
+        confirmation: "không khớp với %{attribute}"
   layouts:
     application:
       base_title: "Ruby on Rails Tutorial Sample App"
@@ -37,6 +40,7 @@ vi:
     create:
       message:
         invalid_email_password_combination: "Email hoặc mật khẩu không hợp lệ"
+        no_user: "Không tìm thấy tài khoản với địa chỉ email này"
   shared:
     error_messages:
       error: "lỗi"
@@ -58,10 +62,26 @@ vi:
         sign_up: "Đăng ký ngay!"
   users:
     message:
+      auth:
+        edit: "Bạn không thể chỉnh sửa người dùng này."
+        delete: "Bạn không thể xóa người dùng này."
+      delete_fail: "Xóa thất bại!"
+      deleted: "Người dùng đã bị xóa"
+      log_in: "Vui lòng đăng nhập."
       new: "Người dùng được tạo thành công"
       not_found: "Không tìm thấy người dùng!"
+      updated: "Hồ sơ đã được cập nhật"
+    edit:
+      title: "Chỉnh sửa"
+      change: "Đổi"
+      header: "Cập nhật hồ sơ"
+      submit_button: "Lưu thay đổi"
     new:
       title: "Đăng ký"
-      form:
-        confirmation: "Xác nhận"
-        submit_button: "Tạo tài khoản mới"
+      submit_button: "Tạo tài khoản mới"
+    form:
+      confirmation: "Xác nhận"
+    index:
+      title: "Danh sách người dùng"
+    user:
+      you_sure?: "Bạn có chắc chắn không"
