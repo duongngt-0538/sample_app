@@ -32,8 +32,8 @@ vi:
         password: "Mật khẩu"
         submit_button: "Đăng nhập"
       new_user?: "Người dùng mới?"
+      remember_me: "Tự động đăng nhập"
       sign_up: "Đăng ký ngay!"
-      title: "Đăng nhập"
     create:
       message:
         invalid_email_password_combination: "Email hoặc mật khẩu không hợp lệ"

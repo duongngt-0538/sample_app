@@ -8,6 +8,10 @@
       <%= f.label :password, t(".form.password") %>
       <%= f.password_field :password, class: "form-control" %>
       <%= f.submit t(".form.submit_button") , class: "btn btn-primary" %>
+      <%= f.label :remember_me, class: "checkbox inline" do %>
+      <%= f.check_box :remember_me %>
+        <span><%= t(".remember_me") %></span>
+      <% end %>
     <% end %>
     <p>
       <%= t ".new_user?" %>
