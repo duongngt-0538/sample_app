@@ -4,5 +4,5 @@
   <h2>
     <%= t(".content.main", rails_url: link_to(t(".content.rails"), Settings.links.rails.url)).html_safe %>
   </h2>
-  <%= link_to t(".content.sign_up"), "#", class: "btn btn-lg btn-primary" %>
+  <%= link_to t(".content.sign_up"), signup_path, class: "btn btn-lg btn-primary" %>
 </div>

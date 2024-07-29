@@ -1,9 +1,14 @@
 class SessionsController < ApplicationController
-  before_action :find_user, only: :create
+  before_action :find_by_email, only: :create
 
   def create
     if @user.authenticate params.dig(:session, :password)
-      handle_successful_login @user
+      if user.activated?
+        handle_successful_login @user
+      else
+        flash[:warning] = t ".message.not_activated"
+        redirect_to root_url, status: :see_other
+      end
     else
       handle_failed_login
     end
@@ -16,7 +21,7 @@ class SessionsController < ApplicationController
 
   private
 
-  def find_user
+  def find_by_email
     @user = User.find_by email: params.dig(:session, :email)&.downcase
     return if @user
 

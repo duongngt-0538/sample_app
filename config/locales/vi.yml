@@ -14,6 +14,10 @@ vi:
         invalid: "không hợp lệ"
         too_short: "quá ngắn (tối thiểu %{count} ký tự)."
         confirmation: "không khớp với %{attribute}"
+  account_activations:
+    message:
+      account_activated: "Tài khoản đã được kích hoạt!"
+      invalid_activation_link: "Liên kết không hợp lệ"
   layouts:
     application:
       base_title: "Ruby on Rails Tutorial Sample App"
@@ -41,6 +45,7 @@ vi:
       message:
         invalid_email_password_combination: "Email hoặc mật khẩu không hợp lệ"
         no_user: "Không tìm thấy tài khoản với địa chỉ email này"
+        not_activated: "Tài khoản chưa được kích hoạt. Vui lòng kiểm tra email của bạn để lấy liên kết kích hoạt"
   shared:
     error_messages:
       error: "lỗi"
@@ -60,11 +65,18 @@ vi:
         main: "Đây là trang chính cho sample app %{rails_url}."
         rails: "Ruby On Rails Tutorial"
         sign_up: "Đăng ký ngay!"
+  user_mailer:
+    account_activation:
+      greeting: "Xin chào"
+      content: "Chào mừng bạn đến với Sample App! Nhấp vào liên kết dưới đây để kích hoạt tài khoản của bạn:"
+      account_activation: "Kích hoạt tài khoản"
+      activate: "Kích hoạt"
   users:
     message:
       auth:
         edit: "Bạn không thể chỉnh sửa người dùng này."
         delete: "Bạn không thể xóa người dùng này."
+      check_email: "Vui lòng kiểm tra email của bạn để kích hoạt tài khoản"
       delete_fail: "Xóa thất bại!"
       deleted: "Người dùng đã bị xóa"
       log_in: "Vui lòng đăng nhập."

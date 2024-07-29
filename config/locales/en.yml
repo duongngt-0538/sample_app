@@ -1,4 +1,8 @@
 en:
+  account_activations:
+    message:
+      account_activated: "Account activated!"
+      invalid_activation_link: "Invalid activation link"
   layouts:
     application:
       base_title: "Ruby on Rails Tutorial Sample App"
@@ -26,6 +30,7 @@ en:
       message:
         invalid_email_password_combination: "Invalid email password combination"
         no_user: "No account found with the provided email address"
+        not_activated: "Account not activated. Please check your email for the activation link"
   shared:
     error_messages:
       error: "error"
@@ -45,11 +50,18 @@ en:
         main: "This is the home page for the %{rails_url} sample application."
         rails: "Ruby On Rails Tutorial"
         sign_up: "Sign up now!"
+  user_mailer:
+    account_activation:
+      greeting: "Hi"
+      content: "Welcome to the Sample App! Click on the link below to activate your account:"
+      account_activation: "Account activation"
+      activate: "Activate"
   users:
     message:
       auth:
         edit: "You cannot edit this user."
         delete: "You cannot delete this user."
+      check_email: "Please check your email to activate your account"
       delete_fail: "Delete fail!"
       deleted: "User deleted"
       log_in: "Please log in."
