@@ -32,20 +32,36 @@ vi:
         profile: "Hồ sơ"
         settings: "Cài đặt"
         users: "Người dùng"
+  password_resets:
+    new:
+      title: "Quên mật khẩu"
+      submit_button: "Gửi"
+    edit:
+      title: "Đặt lại mật khẩu"
+      confirmation: "Xác nhận"
+      submit_button: "Cập nhật mật khẩu"
+    message:
+      blank: "không được để trống"
+      email_sent: "Email đã được gửi với hướng dẫn đặt lại mật khẩu"
+      email_not_found: "Không tìm thấy địa chỉ email"
+      success: "Mật khẩu đã được đặt lại."
+      user_not_found: "Không tìm thấy người dùng!"
+      inactivated: "Người dùng chưa được kích hoạt!"
+      expired: "Đặt lại mật khẩu đã hết hạn."
   sessions:
     new:
       title: "Đăng nhập"
       form:
         password: "Mật khẩu"
         submit_button: "Đăng nhập"
+      forgot_password: "Quên mật khẩu"
       new_user?: "Người dùng mới?"
       remember_me: "Tự động đăng nhập"
       sign_up: "Đăng ký ngay!"
-    create:
-      message:
-        invalid_email_password_combination: "Email hoặc mật khẩu không hợp lệ"
-        no_user: "Không tìm thấy tài khoản với địa chỉ email này"
-        not_activated: "Tài khoản chưa được kích hoạt. Vui lòng kiểm tra email của bạn để lấy liên kết kích hoạt"
+    message:
+      invalid_email_password_combination: "Email hoặc mật khẩu không hợp lệ"
+      no_user: "Không tìm thấy tài khoản với địa chỉ email này"
+      not_activated: "Tài khoản chưa được kích hoạt. Vui lòng kiểm tra email của bạn để lấy liên kết kích hoạt"
   shared:
     error_messages:
       error: "lỗi"
@@ -67,10 +83,17 @@ vi:
         sign_up: "Đăng ký ngay!"
   user_mailer:
     account_activation:
+      title: "Kích hoạt tài khoản"
       greeting: "Xin chào"
       content: "Chào mừng bạn đến với Sample App! Nhấp vào liên kết dưới đây để kích hoạt tài khoản của bạn:"
       account_activation: "Kích hoạt tài khoản"
       activate: "Kích hoạt"
+    password_reset:
+      title: "Đặt lại mật khẩu"
+      reset_password: "Đặt lại mật khẩu"
+      content: "Để đặt lại mật khẩu của bạn, hãy nhấp vào liên kết bên dưới:"
+      expiration: "Liên kết này sẽ hết hạn trong hai tiếng."
+      ignore: "Nếu bạn không yêu cầu đặt lại mật khẩu, vui lòng bỏ qua email này và mật khẩu của bạn sẽ giữ nguyên."
   users:
     message:
       auth:
