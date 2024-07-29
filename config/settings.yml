@@ -9,3 +9,10 @@ user:
   email:
     regex_valid: \A[\w+\-.]+@[a-z\d\-.]+\.[a-z]+\z
     max_length: 255
+  password:
+    min_length: 6
+page: 10
+gravatar:
+  md: 80
+  sm: 50
+  link: "http://gravatar.com/emails"
