@@ -18,6 +18,19 @@ vi:
     message:
       account_activated: "Tài khoản đã được kích hoạt!"
       invalid_activation_link: "Liên kết không hợp lệ"
+  microposts:
+    message:
+      created: "Bài đăng đã được tạo"
+      deleted: "Bài đăng đã được xóa"
+      delete_failed: "Xóa bài đăng thất bại"
+      invalid: "Bài đăng không hợp lệ"
+      image_format: "phải là ảnh hợp lệ"
+      size_max: "phải nhỏ hơn 5MB"
+    micropost:
+      posted: "Đã đăng"
+      ago: "trước"
+      delete: "Xoá"
+      you_sure?: "Bạn có chắc chắn không"
   layouts:
     application:
       base_title: "Ruby on Rails Tutorial Sample App"
@@ -66,6 +79,13 @@ vi:
     error_messages:
       error: "lỗi"
       the_form_contains: "Form có"
+    micropost_form:
+      new: "Soạn bài đăng mới..."
+      max_size: "Kích thước file ảnh phải nhỏ hơn 5MB"
+      post: "Đăng"
+    user_info:
+      view_profile: "Xem hồ sơ cua tôi"
+      micropost: "bài đăng"
   static_pages:
     help:
       title: "Trợ giúp"
@@ -81,6 +101,7 @@ vi:
         main: "Đây là trang chính cho sample app %{rails_url}."
         rails: "Ruby On Rails Tutorial"
         sign_up: "Đăng ký ngay!"
+        feed: "Bảng tin"
   user_mailer:
     account_activation:
       title: "Kích hoạt tài khoản"
@@ -114,9 +135,12 @@ vi:
     new:
       title: "Đăng ký"
       submit_button: "Tạo tài khoản mới"
+    show:
+      micropost: "Bài đăng"
     form:
       confirmation: "Xác nhận"
     index:
       title: "Danh sách người dùng"
     user:
+      delete: "Xoá"
       you_sure?: "Bạn có chắc chắn không"

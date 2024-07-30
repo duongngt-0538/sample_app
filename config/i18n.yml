@@ -1,0 +1,5 @@
+---
+translations:
+  - file: "public/locales/translations.json"
+    patterns:
+      - "*.shared.micropost_form.max_size"
