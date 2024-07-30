@@ -16,3 +16,4 @@ gravatar:
   md: 80
   sm: 50
   link: "http://gravatar.com/emails"
+password_reset_expire: 2
