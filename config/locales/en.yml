@@ -45,6 +45,10 @@ en:
       user_not_found: "User not found!"
       inactivated: "User is not activated!"
       expired: "Password reset has expired."
+  relationships:
+    message:
+      relationship_not_found: "Relationship not found!"
+      user_not_found: "User not found!"
   sessions:
     new:
       title: "Log in"
@@ -70,6 +74,9 @@ en:
     user_info:
       view_profile: "View profile"
       micropost: "micropost"
+    stats:
+      following: "following"
+      followers: "followers"
   static_pages:
     help:
       title: "Help"
@@ -121,6 +128,8 @@ en:
       submit_button: "Create my account"
     show:
       micropost: "Micropost"
+    show_follow:
+      view_profile: "View profile"
     form:
       confirmation: "Confirmation"
     index:
@@ -128,3 +137,7 @@ en:
     user:
       delete: "Delete"
       you_sure?: "You sure?"
+    follow: "Follow"
+    unfollow: "Unfollow"
+    following: "Following"
+    followers: "Followers"
