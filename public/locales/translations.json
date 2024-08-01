@@ -1,0 +1,16 @@
+{
+  "en": {
+    "shared": {
+      "micropost_form": {
+        "max_size": "Maximum file size is 5MB. Please choose a smaller file."
+      }
+    }
+  },
+  "vi": {
+    "shared": {
+      "micropost_form": {
+        "max_size": "Kích thước file ảnh phải nhỏ hơn 5MB"
+      }
+    }
+  }
+}

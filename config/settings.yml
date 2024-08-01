@@ -11,6 +11,13 @@ user:
     max_length: 255
   password:
     min_length: 6
+micropost:
+  content:
+    max_length: 140
+  image_valid_format: ["image/jpeg", "image/gif", "image/png"]
+  image_height: 300
+  image_width: 300
+  image_max_size: 5
 page: 10
 gravatar:
   md: 80

@@ -3,7 +3,7 @@ class SessionsController < ApplicationController
 
   def create
     if @user.authenticate params.dig(:session, :password)
-      if user.activated?
+      if @user.activated?
         handle_successful_login @user
       else
         flash[:warning] = t ".message.not_activated"
