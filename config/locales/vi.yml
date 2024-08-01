@@ -61,6 +61,10 @@ vi:
       user_not_found: "Không tìm thấy người dùng!"
       inactivated: "Người dùng chưa được kích hoạt!"
       expired: "Đặt lại mật khẩu đã hết hạn."
+  relationships:
+    message:
+      relationship_not_found: "Không tìm thấy mối quan hệ!"
+      user_not_found: "Không tìm thấy người dùng!"
   sessions:
     new:
       title: "Đăng nhập"
@@ -84,8 +88,11 @@ vi:
       max_size: "Kích thước file ảnh phải nhỏ hơn 5MB"
       post: "Đăng"
     user_info:
-      view_profile: "Xem hồ sơ cua tôi"
+      view_profile: "Xem hồ sơ"
       micropost: "bài đăng"
+    stats:
+      following: "đang theo dõi"
+      followers: "người theo dõi"
   static_pages:
     help:
       title: "Trợ giúp"
@@ -137,6 +144,8 @@ vi:
       submit_button: "Tạo tài khoản mới"
     show:
       micropost: "Bài đăng"
+    show_follow:
+      view_profile: "Xem hồ sơ"
     form:
       confirmation: "Xác nhận"
     index:
@@ -144,3 +153,43 @@ vi:
     user:
       delete: "Xoá"
       you_sure?: "Bạn có chắc chắn không"
+    follow: "Theo dõi"
+    unfollow: "Hủy theo dõi"
+    following: "Đang theo dõi"
+    followers: "Người theo dõi"
+  datetime:
+    distance_in_words:
+      less_than_x_seconds:
+        one: "chưa đến 1 giây"
+        other: "chưa đến %{count} giây"
+      x_seconds:
+        one: "1 giây"
+        other: "%{count} giây"
+      half_a_minute: "nửa phút"
+      less_than_x_minutes:
+        one: "chưa đến một phút"
+        other: "chưa đến %{count} phút"
+      x_minutes:
+        one: "1 phút"
+        other: "%{count} phút"
+      about_x_hours:
+        one: "khoảng 1 giờ"
+        other: "khoảng %{count} giờ"
+      x_days:
+        one: "1 ngày"
+        other: "%{count} ngày"
+      about_x_months:
+        one: "khoảng 1 tháng"
+        other: "khoảng %{count} tháng"
+      x_months:
+        one: "1 tháng"
+        other: "%{count} tháng"
+      about_x_years:
+        one: "khoảng 1 năm"
+        other: "khoảng %{count} năm"
+      over_x_years:
+        one: "hơn 1 năm"
+        other: "hơn %{count} năm"
+      almost_x_years:
+        one: "Gần 1 năm"
+        other: "Gần %{count} năm"

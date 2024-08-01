@@ -1,0 +1,4 @@
+<%= form_for(following_of(@user),
+  html: {method: :delete}) do |f| %>
+  <%= f.submit t("users.unfollow"), class: "btn" %>
+<% end %>
